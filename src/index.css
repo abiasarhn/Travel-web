@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Krona-One-bold";
+  src: url("./assets/fonts/KronaOne-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Montserrat-regular", sans-serif;
+  background-color: white;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-menu {
+  transform: translateX(-100vw);
+  transition: transform 300ms ease-in-out;
+}
+
+.brand {
+  font-family: "Montserrat-bold";
+}
+
+.active-navbar-menu {
+  transform: translateX(0);
+}
+
+main {
+  background-image: url("./assets/images/hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Krona-One-Bold";
+}
+
+.cta-button {
+  font-family: "Montserrat-bold";
+}
+
+.stats-amount {
+  font-family: "Montserrat-bold";
+}
+
+.active-menu > span:nth-child(2) {
+  width: 1.5rem;
+}
+.active-menu > span:nth-child(3) {
+  width: 1.5rem;
+}
+
+@keyframes navbar-menu-animation {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
