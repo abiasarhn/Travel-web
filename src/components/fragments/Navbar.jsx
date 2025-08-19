@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import HamburgerIcon from "../assets/icons/HamburgerIcon";
+import HamburgerIcon from "../../assets/icons/HamburgerIcon";
 import NavbarMenu from "./NavbarMenu";
 
 const Navbar = () => {

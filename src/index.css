@@ -30,7 +30,7 @@
 
 .navbar-menu {
   transform: translateX(-100vw);
-  transition: transform 300ms ease-in-out;
+  transition: transform 600ms ease-in-out;
 }
 
 .brand {
@@ -42,7 +42,7 @@
 }
 
 main {
-  background-image: url("./assets/images/hero.png");
+  background-image: url("/images/hero.png");
   background-size: cover;
   background-position: center;
 }
@@ -64,6 +64,10 @@ h1 {
 }
 .active-menu > span:nth-child(3) {
   width: 1.5rem;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
 }
 
 @keyframes navbar-menu-animation {

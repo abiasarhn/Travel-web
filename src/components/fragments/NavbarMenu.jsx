@@ -1,5 +1,5 @@
 import NavbarLink from "./NavbarLink";
-import Button from "./Button";
+import Button from "../elements/Button";
 
 const NavbarMenu = () => {
   return (
@@ -15,7 +15,12 @@ const NavbarMenu = () => {
           <NavbarLink>Contacts</NavbarLink>
         </ul>
         <div className="w-full mt-10">
-          <Button Class="w-full">Buy Ticket</Button>
+          <Button Class="cta-button w-full">Buy Ticket</Button>
+        </div>
+        <div className="flex justify-center items-center gap-5 mt-10">
+          <i className="bi bi-facebook text-2xl text-white"></i>
+          <i className="bi bi-instagram text-2xl text-white"></i>
+          <i className="bi bi-tiktok text-2xl text-white"></i>
         </div>
       </div>
     </>

@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainPage from "./pages";
 
 import "./index.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const router = createBrowserRouter([{ path: "/", element: <MainPage /> }]);
 
